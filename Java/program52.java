@@ -1,0 +1,24 @@
+import java.util.*;
+
+
+public class program52 
+{
+        public static void main(String A[]) 
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter your name :");
+        String name = sobj.nextLine();
+
+        System.out.println("Enter your Age:");
+        int Age = sobj.nextInt();
+
+        System.out.println("Enter your Marks :");
+        float Marks = sobj.nextFloat();
+
+        System.out.println("Name " +name);
+        System.out.println("Age " +Age);
+        System.out.println("Marks " +Marks);
+
+    }
+}
