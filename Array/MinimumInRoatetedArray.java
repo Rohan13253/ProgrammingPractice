@@ -18,33 +18,25 @@
 // Output: 1
 // Explanation: The original array was [1,2,3,4,5] rotated 3 times.
 
-class ArrayX
-{
-    int MinimumInRoatetedArrayX(int []arr)
-    {
-
+class Solution {
+    public int findMin(int[] nums) {
         int left = 0;
-        int right = arr.length -1;
+        int right = nums.length - 1;
 
-        while(left < right)
-        {
-            int mid = left + (right - left)/2;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
 
-            if(arr[mid] > arr[right])
-            {
-                right = mid;
-            }
-            else
-            {
-                left = mid;
+            // If mid is greater than right, the minimum is to the right
+            if (nums[mid] > nums[right]) {
+                left = mid + 1; 
+            } 
+            // Otherwise, the right side is sorted, so the minimum is at mid or to the left
+            else {
+                right = mid; 
             }
         }
-
-
-        return left;
+        
+        // At the end of the loop, left == right, pointing exactly to the minimum
+        return nums[left]; 
     }
-}
-
-public class MinimumInRoatetedArray {
-    
 }
