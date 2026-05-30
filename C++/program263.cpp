@@ -7,7 +7,6 @@ void DisplayBinary(int iNo)
     int iDigit = 0;
 
     cout<<"Binary convertion is :\n";
-
     while(iNo != 0) 
     {
         iDigit = iNo % 2;
