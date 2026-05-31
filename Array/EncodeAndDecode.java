@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Codec {
-
     
     public String encode(List<String> strs) {
         StringBuilder encoded = new StringBuilder();
