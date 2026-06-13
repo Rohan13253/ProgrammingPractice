@@ -8,7 +8,6 @@ void Display(int iNo ,int iFrequency)
     {
         printf("%d",iNo);
     }
-
 }
 
 int main()
