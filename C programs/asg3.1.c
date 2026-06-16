@@ -15,8 +15,7 @@ void PrintEven(int iNo)
                 printf("%d ",iCnt);
             }
         }
-    }
-    
+    }   
 }
 int main()
 {
