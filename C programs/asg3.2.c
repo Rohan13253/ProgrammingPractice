@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void DisplayFactor(int iNo)
 {
     int i = 0;
