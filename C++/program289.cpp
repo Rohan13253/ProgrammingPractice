@@ -10,7 +10,6 @@ bool CheckBit(int iNo)
     
    return (iResult == iMask);
     
-
 }
 
 int main()
