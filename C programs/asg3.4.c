@@ -20,6 +20,5 @@ int main()
     scanf("%c", &cValue);
 
     DisplayConvert(cValue);
-
     return 0;
 }
