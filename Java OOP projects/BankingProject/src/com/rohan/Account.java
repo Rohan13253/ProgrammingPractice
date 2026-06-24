@@ -2,7 +2,6 @@ package com.rohan;
 
 public class Account 
 {
-
     private  String Number;
     private double Balance;
     private String Name;
