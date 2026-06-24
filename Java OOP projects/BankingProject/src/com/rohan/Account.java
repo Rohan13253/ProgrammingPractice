@@ -1,6 +1,7 @@
 package com.rohan;
 
-public class Account {
+public class Account 
+{
 
     private  String Number;
     private double Balance;
