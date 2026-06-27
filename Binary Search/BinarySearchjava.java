@@ -20,7 +20,7 @@ class Search {
                 right = mid - 1; 
             }
         }
-        
+    
         return -1; // Loop finished and we never found it
     }
 }
