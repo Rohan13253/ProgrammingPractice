@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int MultFact(int iNo)
 {
     int iCnt=0;
