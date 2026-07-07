@@ -62,3 +62,15 @@ This repository is for educational purposes. Feel free to use the code for your 
 ---
 
 ⭐ **Note**: This is a work-in-progress repository that grows with my programming journey. The code ranges from beginner exercises to more complex implementations as my skills develop.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/Rohan13253/ProgrammingPractice/tree/master/0198-house-robber) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/Rohan13253/ProgrammingPractice/tree/master/0198-house-robber) |
+<!---LeetCode Topics End-->
