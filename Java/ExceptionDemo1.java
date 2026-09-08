@@ -1,4 +1,4 @@
-//08-10-2025 division of 2 num
+division of 2 num
 import java.util.*;
 
 public class ExceptionDemo1
